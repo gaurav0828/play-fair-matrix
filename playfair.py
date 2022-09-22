@@ -44,7 +44,7 @@ def incrval(v,y):
 
 #Plain text to Cypher text
 def encryption():
-    ip = (input("Enter the message for encryprion : - ").upper()).replace('J','I')
+    ip = (input("Enter the message for encryption : - ").upper()).replace('J','I')
     op = ""
     s = []
     for i in ip:
@@ -77,7 +77,7 @@ def encryption():
             op += l[x][y]
             op += l[u][v]
         i+=2
-    print("Encoded ouptup :- ",op)
+    print("Encoded output :- ",op)
     return op
 
 def decrval(v,y):
